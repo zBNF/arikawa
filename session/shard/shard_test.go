@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/internal/testenv"
-	"github.com/diamondburned/arikawa/v3/session"
+	"github.com/zBNF/arikawa/v3/gateway"
+	"github.com/zBNF/arikawa/v3/internal/testenv"
+	"github.com/zBNF/arikawa/v3/session"
 )
 
 func TestSharding(t *testing.T) {

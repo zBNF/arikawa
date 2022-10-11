@@ -6,14 +6,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/session/shard"
-	"github.com/diamondburned/arikawa/v3/state/store"
-	"github.com/diamondburned/arikawa/v3/state/store/defaultstore"
-	"github.com/diamondburned/arikawa/v3/utils/handler"
+	"github.com/zBNF/arikawa/v3/api"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/gateway"
+	"github.com/zBNF/arikawa/v3/session"
+	"github.com/zBNF/arikawa/v3/session/shard"
+	"github.com/zBNF/arikawa/v3/state/store"
+	"github.com/zBNF/arikawa/v3/state/store/defaultstore"
+	"github.com/zBNF/arikawa/v3/utils/handler"
 
 	"github.com/pkg/errors"
 )

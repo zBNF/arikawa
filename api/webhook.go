@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/httputil"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/utils/httputil"
+	"github.com/zBNF/arikawa/v3/utils/json/option"
 )
 
 var EndpointWebhooks = Endpoint + "webhooks/"

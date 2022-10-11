@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
+	"github.com/zbnf/arikawa/v3/discord"
+	"github.com/zbnf/arikawa/v3/utils/json/option"
 )
 
 func ExampleContainerComponents_Unmarshal() {

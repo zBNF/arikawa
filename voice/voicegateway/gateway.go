@@ -17,8 +17,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/utils/ws"
 )
 
 // Version represents the current version of the Discord Gateway Gateway this package uses.

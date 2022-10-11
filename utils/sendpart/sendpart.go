@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/diamondburned/arikawa/v3/utils/httputil"
-	"github.com/diamondburned/arikawa/v3/utils/json"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/utils/httputil"
+	"github.com/zBNF/arikawa/v3/utils/json"
 )
 
 // File represents a file to be uploaded to Discord.

@@ -60,4 +60,4 @@ which will be sent to the **Voice Server**. `(*voice.Session)` also implements `
 
 ## Examples
 
-Check the integration tests at [voice/integration_test.go](https://github.com/diamondburned/arikawa/blob/master/voice/integration_test.go).
+Check the integration tests at [voice/integration_test.go](https://github.com/zBNF/arikawa/blob/master/voice/integration_test.go).

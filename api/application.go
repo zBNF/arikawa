@@ -3,8 +3,8 @@ package api
 import (
 	"encoding/json"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/httputil"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/utils/httputil"
 )
 
 var EndpointApplications = Endpoint + "applications/"

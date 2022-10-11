@@ -5,19 +5,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/utils/handler"
-	"github.com/diamondburned/arikawa/v3/utils/ws/ophandler"
+	"github.com/zBNF/arikawa/v3/state"
+	"github.com/zBNF/arikawa/v3/utils/handler"
+	"github.com/zBNF/arikawa/v3/utils/ws/ophandler"
 
 	"github.com/pkg/errors"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/internal/moreatomic"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
-	"github.com/diamondburned/arikawa/v3/voice/udp"
-	"github.com/diamondburned/arikawa/v3/voice/voicegateway"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/gateway"
+	"github.com/zBNF/arikawa/v3/internal/moreatomic"
+	"github.com/zBNF/arikawa/v3/session"
+	"github.com/zBNF/arikawa/v3/utils/ws"
+	"github.com/zBNF/arikawa/v3/voice/udp"
+	"github.com/zBNF/arikawa/v3/voice/voicegateway"
 )
 
 // Protocol is the encryption protocol that this library uses.

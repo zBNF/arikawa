@@ -11,16 +11,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/internal/testenv"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
-	"github.com/diamondburned/arikawa/v3/voice/testdata"
-	"github.com/diamondburned/arikawa/v3/voice/udp"
-	"github.com/diamondburned/arikawa/v3/voice/voicegateway"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/api"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/internal/testenv"
+	"github.com/zBNF/arikawa/v3/state"
+	"github.com/zBNF/arikawa/v3/utils/json/option"
+	"github.com/zBNF/arikawa/v3/utils/ws"
+	"github.com/zBNF/arikawa/v3/voice/testdata"
+	"github.com/zBNF/arikawa/v3/voice/udp"
+	"github.com/zBNF/arikawa/v3/voice/voicegateway"
 )
 
 func TestMain(m *testing.M) {

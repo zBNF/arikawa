@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/utils/ws"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/utils/ws"
 )
 
 // ErrManagerClosed is returned when a Manager that is already closed is dialed,

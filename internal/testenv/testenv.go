@@ -1,3 +1,4 @@
+//go:build !uintonly
 // +build !uintonly
 
 package testenv
@@ -9,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/discord"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/discord"
 )
 
 const PerseveranceTime = 50 * time.Minute

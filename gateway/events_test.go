@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/zbnf/arikawa/v3/discord"
+	"github.com/zbnf/arikawa/v3/utils/json/option"
+	"github.com/zbnf/arikawa/v3/utils/ws"
 )
 
 func TestRequestGuildMembersCommand(t *testing.T) {

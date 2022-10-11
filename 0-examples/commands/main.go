@@ -8,12 +8,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/api"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/gateway"
+	"github.com/zBNF/arikawa/v3/state"
+	"github.com/zBNF/arikawa/v3/utils/json/option"
 )
 
 // To run, do `BOT_TOKEN="TOKEN HERE" go run .`

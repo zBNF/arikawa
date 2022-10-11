@@ -15,10 +15,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/internal/lazytime"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/api"
+	"github.com/zBNF/arikawa/v3/internal/lazytime"
+	"github.com/zBNF/arikawa/v3/utils/ws"
 )
 
 var (

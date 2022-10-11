@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	internaljson "github.com/diamondburned/arikawa/v3/utils/json"
+	"github.com/zbnf/arikawa/v3/discord"
+	internaljson "github.com/zbnf/arikawa/v3/utils/json"
 )
 
 func ExampleCommandInteractionOptions_Unmarshal() {

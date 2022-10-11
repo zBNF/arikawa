@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/internal/lazytime"
-	"github.com/diamondburned/arikawa/v3/utils/json"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/internal/lazytime"
+	"github.com/zBNF/arikawa/v3/utils/json"
 )
 
 // ConnectionError is given to the user if the gateway fails to connect to the

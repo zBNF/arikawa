@@ -12,35 +12,35 @@ A Golang library for the Discord API.
 [dgophers]:     https://discord.gg/7jSf85J
 [dgophers_img]: https://img.shields.io/badge/Discord%20Gophers-%23arikawa-%237289da?style=flat-square
 
-[examples]:     https://github.com/diamondburned/arikawa/tree/v3/0-examples
+[examples]:     https://github.com/zBNF/arikawa/tree/v3/0-examples
 [examples_img]: https://img.shields.io/badge/Example-__example%2F-blueviolet?style=flat-square
 
-[pipeline]:     https://builds.sr.ht/~diamondburned/arikawa
-[pipeline_img]: https://builds.sr.ht/~diamondburned/arikawa.svg?style=flat-square
+[pipeline]:     https://builds.sr.ht/~zBNF/arikawa
+[pipeline_img]: https://builds.sr.ht/~zBNF/arikawa.svg?style=flat-square
 
-[pkg.go.dev]:     https://pkg.go.dev/github.com/diamondburned/arikawa/v3
-[pkg.go.dev_img]: https://pkg.go.dev/badge/github.com/diamondburned/arikawa/v3
+[pkg.go.dev]:     https://pkg.go.dev/github.com/zBNF/arikawa/v3
+[pkg.go.dev_img]: https://pkg.go.dev/badge/github.com/zBNF/arikawa/v3
 
 [himeArikawa]:     https://hime-goto.fandom.com/wiki/Hime_Arikawa
 [himeArikawa_img]: https://img.shields.io/badge/Hime-Arikawa-ea75a2?style=flat-square
 
-[goreportcard]:     https://goreportcard.com/report/github.com/diamondburned/arikawa
-[goreportcard_img]: https://goreportcard.com/badge/github.com/diamondburned/arikawa?style=flat-square
+[goreportcard]:     https://goreportcard.com/report/github.com/zBNF/arikawa
+[goreportcard_img]: https://goreportcard.com/badge/github.com/zBNF/arikawa?style=flat-square
 
 
 ## Examples
 
-### [Commands (Hybrid)](https://github.com/diamondburned/arikawa/tree/v3/0-examples/commands-hybrid)
+### [Commands (Hybrid)](https://github.com/zBNF/arikawa/tree/v3/0-examples/commands-hybrid)
 
 commands-hybrid is an alternative variant of
-[commands](https://github.com/diamondburned/arikawa/tree/v3/0-examples/commands),
+[commands](https://github.com/zBNF/arikawa/tree/v3/0-examples/commands),
 where the program permits being hosted either as a Gateway-based daemon or as a
 web server using the Interactions Webhook API.
 
 Both examples demonstrate adding interaction commands into the bot as well as an
 example of routing those commands to be executed.
 
-### [Simple](https://github.com/diamondburned/arikawa/tree/v3/0-examples/simple)
+### [Simple](https://github.com/zBNF/arikawa/tree/v3/0-examples/simple)
 
 Simple bot example without any state. All it does is logging messages sent into
 the console. Run with `BOT_TOKEN="TOKEN" go run .`. This example only
@@ -50,7 +50,7 @@ the bot router.
 **Note** that Discord discourages use of bots that do not use the interactions
 API, meaning that this example should not be used for bots.
 
-### [Undeleter](https://github.com/diamondburned/arikawa/tree/v3/0-examples/undeleter)
+### [Undeleter](https://github.com/zBNF/arikawa/tree/v3/0-examples/undeleter)
 
 A slightly more complicated example. This bot uses a local state to cache
 everything, including messages. It detects when someone deletes a message,
@@ -77,8 +77,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/state"
+	"github.com/zBNF/arikawa/v3/gateway"
+	"github.com/zBNF/arikawa/v3/state"
 )
 
 func main() {

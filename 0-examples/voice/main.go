@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/voice"
-	"github.com/diamondburned/arikawa/v3/voice/udp"
 	"github.com/diamondburned/oggreader"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/state"
+	"github.com/zBNF/arikawa/v3/voice"
+	"github.com/zBNF/arikawa/v3/voice/udp"
 )
 
 func main() {

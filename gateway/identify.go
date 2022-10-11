@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
 	"github.com/pkg/errors"
+	"github.com/zBNF/arikawa/v3/api"
+	"github.com/zBNF/arikawa/v3/discord"
+	"github.com/zBNF/arikawa/v3/utils/json/option"
 	"golang.org/x/time/rate"
 )
 

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/internal/testenv"
-	"github.com/diamondburned/arikawa/v3/session/shard"
-	"github.com/diamondburned/arikawa/v3/state"
+	"github.com/zbnf/arikawa/v3/gateway"
+	"github.com/zbnf/arikawa/v3/internal/testenv"
+	"github.com/zbnf/arikawa/v3/session/shard"
+	"github.com/zbnf/arikawa/v3/state"
 )
 
 type shardedBot struct {
